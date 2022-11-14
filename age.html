@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>vote</title>
+    </head>
+    <body>
+        <label>Enter the name</label>
+        <input type="text" value="" id="text" >
+        <label>age</label>
+        <input type="number" value="" id="vote">
+        <input type="button" value="click" id="b1" onclick="age()">
+        <script>
+            function age()
+            {
+                let a=document.getElementById("text").value;
+                let b=document.getElementById("vote").value;
+                if(b>=18 && b<=90)
+                {
+                        alert("Eligilable for vote");
+                }
+                else
+                {
+                    alert("Not eligilable for vote");
+                }
+            }
+        </script>
+    </body>
+</html>
